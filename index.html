@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/JSHW-11/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    
+    <script type="module" crossorigin src="/JSHW-11/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/JSHW-11/assets/vendor-5b791d57.js">
+    <link rel="stylesheet" href="/JSHW-11/assets/vendor-cf6910df.css">
+    <link rel="stylesheet" href="/JSHW-11/assets/index-2e4fdc83.css">
+  </head>
+  <body>
+    <section class="container">
+      <form action="GET" method="get" id="form">
+        <label for="search">
+          <input
+            type="search"
+            name="search"
+            id="search"
+            placeholder="Search images..."
+          />
+        </label>
+        <button type="submit" class="submit-btn">Search</button>
+      </form>
+      <span class="loader"></span>
+    </section>
+    <ul class="gallery"></ul>
+    <div class="gallery">
+      <a href="images/image1.jpg"
+        ><img src="images/thumbs/thumb1.jpg" alt="" title=""
+      /></a>
+      <a href="images/image2.jpg"
+        ><img src="images/thumbs/thumb2.jpg" alt="" title="Beautiful Image"
+      /></a>
+    </div>
+    
+  </body>
+</html>
